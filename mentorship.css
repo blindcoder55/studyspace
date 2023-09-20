@@ -93,6 +93,7 @@ header {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    align-content:center;
 }
 
 .mentor-card {
@@ -102,6 +103,7 @@ header {
     text-align: center;
     cursor: pointer;
     max-width: 400px;
+    align-content:center;
 }
 
 .mentor-image {
@@ -113,6 +115,7 @@ header {
 
 /* Mentor details initially hidden */
 .mentor-details {
+    align-content:center;
     display: none;
 }
 
