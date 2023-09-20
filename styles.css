@@ -155,8 +155,34 @@ button {
     line-height:25px;
 }
 
-.blue{
-    color:blue;
+.button{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 35px;
 }
+.blue{
+    
+    text-decoration: none;
+    background-color:#007bff;
+    color:#ffffff;
+    margin-right:10%;
+    align-items: center;
+    text-align: center;
+    width:70%;
+    border-radius: 10px;
+}
+
+.yellow{
+    text-decoration: none;
+    background-color:rgb(225, 225, 47);
+    color:#ffffff;
+    margin-right: 10%;
+    width:70%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
 
 /*Mentorship*/
