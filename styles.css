@@ -187,6 +187,9 @@ button {
 .class{
     text-align:center;
     padding:10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    align-content: center;
 }
 
 
