@@ -17,7 +17,7 @@ body {
 /* Style the navigation */
 nav {
     background-color: #007acc;
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +102,7 @@ img {
     border-radius: 5px;
 }
 
-/* Style buttons (you can add buttons to your HTML for more interaction) */
+
 button {
     background-color: #007acc;
     color: white;
