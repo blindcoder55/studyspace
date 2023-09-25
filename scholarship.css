@@ -1,0 +1,118 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #007acc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav img {
+    max-height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+/* Style the headings */
+h1 {
+    font-size: 36px;
+    margin: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #007acc;
+}
+
+/* Style the paragraphs */
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Style the links */
+a {
+    color: #007acc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Style the lists */
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the list items */
+li {
+    margin: 5px 0;
+}
+
+/* Style the main content container */
+div {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Add a subtle background color to even rows in lists */
+li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Add a border to images */
+img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style buttons (you can add buttons to your HTML for more interaction) */
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
