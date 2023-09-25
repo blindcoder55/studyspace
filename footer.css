@@ -7,7 +7,7 @@
 .site-footer .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: bottom;
 }
 
 .site-footer .footer-logo img {
