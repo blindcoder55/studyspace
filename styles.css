@@ -206,9 +206,20 @@ width: 100%;
 
 /* learnmore */
 
-.content{
-    width: 90%;
+.learnmore-body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: rgb(220, 218, 215);
+    margin: 0;
+    padding-right: 15px;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+
+.content{
+    width: 85%;
+    display: wrap;
 }
