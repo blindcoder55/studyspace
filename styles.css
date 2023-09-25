@@ -204,5 +204,11 @@ width: 100%;
     line-height:25px;
 }
 
+/* learnmore */
 
-/*Mentorship*/
+.content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
