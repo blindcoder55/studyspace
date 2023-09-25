@@ -127,11 +127,20 @@ button {
     margin-top: 10px;
 }
 
+/* Add margin-top to push content below fixed navigation */
+body {
+  margin-top: 80px; /* Adjust the value as needed to match the height of your navigation bar */
+}
+
 /* Footer styles */
 .site-footer {
   background-color: #333;
   color: #fff;
   padding: 30px 0;
+  position: fixed;
+  bottom: 0; /* Fix the footer to the bottom of the viewport */
+  width: 100%;
+  left: 0;
 }
 
 .site-footer .container {
@@ -175,7 +184,6 @@ button {
 .site-footer .footer-bottom p {
   margin: 0;
 }
-
 
 /*home*/
 #home {
