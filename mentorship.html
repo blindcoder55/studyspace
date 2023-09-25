@@ -7,43 +7,38 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-     <nav>
-        <img src="./logo.png" alt="Logo of the website"/>
+    <nav>
+        <img src="./logo.png" alt="Logo of the website">
         <div class="navigation">
             <ol>
-                <li> <a href="./login.html">Login</a> </li>
-                <li> <a href="./signup.html">Signup</a> </li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./signup.html">Signup</a></li>
             </ol>
             <ul>
-                <li> <a href="./index.html"> Home </a>  </li>  <!--Pranjali-->
-                <li> <a href="#">Study materials</a> </li>   <!--Pranjal-->
-                <li> <a href="#">Quiz</a> </li>              <!--Gand maraye-->
-                <li> <a href="#">Leaderboard</a> </li>       <!--Gand maraye-->
-                <li> <a href="./mentorship.html">Mentorships</a> </li>       <!--Adyan-->
-                <li> <a href="./scholarship.html">Scholarships</a> </li>      <!--Adyan-->
-              <!--  <li> <a href="#">Blogs</a> </li>             Pranjali-->
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Study Materials</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="./mentorship.html">Mentorships</a></li>
+                <li><a href="./scholarship.html">Scholarships</a></li>
+                <!-- Add more links if needed -->
             </ul>
         </div>
-        </nav>
-    <pre>
+    </nav>
     <header>
         <h1>Educational Mentors</h1>
     </header>
     <div class="container" id="mentor-container">
         <div class="mentor-card">
-            <pre>
             <img src="./mentor.jpeg" alt="Mentor" class="mentor-image" id="mentor-image">
             <h2 id="mentor-name"></h2>
             <div class="mentor-details">
-                <p id="mentor-email">Email:abc@gmail.com
-                    Specialized in xyz subject</p>
+                <p id="mentor-email">Email: abc@gmail.com<br>Specialized in xyz subject</p>
             </div>
-            </pre>
         </div>
         <button id="prev-button" class="nav-button" onclick="showPreviousMentor()">&#9664; Previous</button>
         <button id="next-button" class="nav-button" onclick="showNextMentor()">Next &#9654;</button>
     </div>
-</pre>
     <script src="script.js"></script>
 </body>
 </html>
