@@ -133,10 +133,11 @@ body {
 }
 
 /* Footer styles */
+/* Footer styles */
 .site-footer {
-  background-color: #000000; /* Change the background color to black */
-  color: #fff;
-  padding: 10px 0; /* Decrease the top and bottom padding */
+  background-color: #000000; /* Black background color */
+  color: #ffffff; /* White text color */
+  padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -167,7 +168,7 @@ body {
 .site-footer .footer-links a,
 .site-footer .footer-social a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff; /* White text color */
   transition: color 0.3s;
 }
 
@@ -178,7 +179,7 @@ body {
 
 .site-footer .footer-bottom {
   text-align: center;
-  margin-top: 10px; /* Adjust the margin-top as needed */
+  margin-top: 10px;
 }
 
 .site-footer .footer-bottom p {
