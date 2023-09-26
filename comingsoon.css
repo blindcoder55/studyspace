@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    background-image: url("backgroundimg.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #bca2fa;
+}
+
+.container{
+    display: wrap;
+}
+
+.statement{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.icons{
+    height: 500px;
+    margin-left: 45%;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top ;
+    padding-bottom: 20px;
+}
